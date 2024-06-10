@@ -1,5 +1,5 @@
-FROM python:latest
-COPY . /app
-WORKDIR app
-RUN hw.py
-CMD ["python", "hw"]
+FROM python
+WORKDIR /pyy
+COPY . /pyy
+CMD ["python", "hw.py"]
+~                         
